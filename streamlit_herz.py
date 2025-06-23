@@ -12,7 +12,6 @@ from PIL import Image, ImageDraw
 import random
 
 # --- 1. Das GRÖSSERE Herz-Layout definieren ---
-# Deutlich mehr 'X', um die Farben besser zur Geltung zu bringen
 HERZ_LAYOUT = [
     "    XXX   XXX    ",
     "  XXXXXX XXXXXX  ",
@@ -32,6 +31,7 @@ FARB_PALETTEN = {
     "Sommer am Mittelmeer": ["#00A5CF", "#0077B6", "#90E0EF", "#CAF0F8", "#F5F5DC"],
     "Hochgebirge im Winter": ["#FFFFFF", "#E0E1DD", "#A2A392", "#6D6A75", "#2B2A2F"],
     "Farben des Abendhimmels": ["#001F54", "#40E0D0", "#FFBF00", "#FF6F61", "#FF7F50"],
+    "Kladow": ["#C5D664", "#F8F47E", "#53A78D", "#234984", "#79D3F1"],
     "Afrikanische Savanne": ["#A68A64", "#7F5539", "#B08968", "#DDBEA9", "#E6CCB2"],
     "Tropischer Regenwald": ["#004B23", "#006400", "#38B000", "#FFC300", "#C70039"],
     "Tokyo bei Nacht": ["#F94144", "#F3722C", "#F9C74F", "#43AA8B", "#277DA1", "#080708"]
